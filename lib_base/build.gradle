@@ -57,6 +57,5 @@ dependencies {
     // kapt
     kapt rootProject.ext.kapt["glide"]
     kapt rootProject.ext.kapt["aroute"]
-    kapt rootProject.ext.kapt["rxhttp"]
 
 }

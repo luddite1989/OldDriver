@@ -19,17 +19,14 @@ ext {
             gson                   : "2.8.6",
             aroute                 : "1.5.0",
             luban                  : "1.1.8",
-            rxhttp                 : "2.1.1",
             rxlife                 : "2.0.0",
-            rxandroid              : "2.1.1",
             noober                 : "1.6.3",
             bugly                  : "3.1.0",
             buglyNative            : "3.7.1",
             statusBar              : "2.3.3",
             agentWeb               : "4.1.3",
             smartRefresh           : "1.1.2",
-            "multitype"            : "4.2.0"
-
+            retrofit               : "2.8.1",
     ]
 
     support = [
@@ -46,9 +43,7 @@ ext {
             "gson"              : "com.google.code.gson:gson:${dependVersion.gson}",
             "aroute"            : "com.alibaba:arouter-api:${dependVersion.aroute}",
             "luban"             : "top.zibin:Luban:${dependVersion.luban}",
-            "rxhttp"            : "com.rxjava.rxhttp:rxhttp:${dependVersion.rxhttp}",
             "rxlife"            : "com.rxjava.rxlife:rxlife-x:${dependVersion.rxlife}",
-            "rxandroid"         : "io.reactivex.rxjava2:rxandroid:${dependVersion.rxandroid}",
             "noober"            : "com.noober.background:core:${dependVersion.noober}",
             "bugly"             : "com.tencent.bugly:crashreport:${dependVersion.bugly}",
             "buglyNative"       : "com.tencent.bugly:nativecrashreport:${dependVersion.buglyNative}",
@@ -56,13 +51,12 @@ ext {
             "agentWeb"          : "com.just.agentweb:agentweb:${dependVersion.agentWeb}",
             "smartRefresh"      : "com.scwang.smartrefresh:SmartRefreshLayout:${dependVersion.smartRefresh}",
             "smartRefreshHeader": "com.scwang.smartrefresh:SmartRefreshHeader:${dependVersion.smartRefresh}",
-            "multitype"         : "com.drakeet.multitype:multitype:${dependVersion.multitype}",
+            "retrofit"          : "com.squareup.retrofit2:retrofit:${dependVersion.retrofit}",
     ]
 
     kapt = [
             "glide" : "com.github.bumptech.glide:compiler:4.11.0",
             "aroute": "com.alibaba:arouter-compiler:1.2.2",
-            "rxhttp": "com.rxjava.rxhttp:rxhttp-compiler:2.1.1"
     ]
 
     appId = [
